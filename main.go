@@ -3,10 +3,11 @@ package main
 import "fmt"
 
 func main() {
-	he := Haha()
+	a := "Hello World"
+	he := Haha(a)
 	fmt.Println(he)
 }
 
-func Haha() string {
-	return "Hello World..."
+func Haha(a string) string {
+	return a
 }
