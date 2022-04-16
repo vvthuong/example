@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	a := "Hello World!!!!!"
+	a := "Hello World!"
 	he := Haha(a)
 	fmt.Println(he)
 }
